@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Kurale);
+
+
+
+body {
+    font-family: 'Kurale', serif;
+    font-size: 1.8vw;
+}
+
+header {
+    background-color: #039BE5;
+    height: 54vh;
+    width: 100vw;
+    
+    position: relative;
+}
+
+
+.header-section {
+    margin: auto;
+    padding: 60px 0 0 0;
+    height: 400px;
+    width: 55vw;
+}
+
+
+.avatar {
+    margin: auto;
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.avatar img {
+    width: 100%;
+    border-radius: 10%;
+    box-shadow: 0 0 0 4px #B3E5FC, 0 0 0 8px #4FC3F7, 0 2px 5px 6px rgba(0, 0, 0,.2);
+}
+
+.about-me h1{
+    color: white;
+    text-align: center;
+}
+.about-me p {
+    font-size: 1.2vw;
+    color: white;
+}
+
+.about-me {
+    text-shadow: 1px 1px 1px rgba(0, 0, 85,.7);
+}
+
+.socials {
+    height: 8vh;
+    padding-top: 20px;
+}
+
+.socials ul li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin-left: .5em;
+}
+
+.socials ul li:first-child {
+    margin-left: 0;
+}
+
+.socials ul a {
+    text-decoration: none;
+    color: #0D47A1;
+    transition: color 0.3s ease;
+}
+
+
+.socials ul li:hover a {
+    color: #64B5F6;
+}
+
+footer {
+    position: relative;
+    background-color: #4FC3F7;
+    height: 40vh;
+    width: 100vw;
+}
